@@ -1,0 +1,39 @@
+body{
+  background: #d7e7f4;
+  margin: 0;
+}
+.container {
+  width: 954px;
+  margin: 0 auto;
+  padding: 0 22px;
+  background: #fff;
+  height: 900px;
+}
+hr{
+  color: #000;
+  margin: 0 -22px;
+  height: 4px;
+  background: #000;
+}
+.login-search {
+  float: right;
+  margin-top: 20px;
+}
+.logo {
+  float: left;
+}
+.login-search form{
+  margin-top: 10px;
+}
+.login-search form input {
+  vertical-align: top;
+  padding: 3px 0;
+}
+.login-search a {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+  float: right;
+  color: #007BAF;
+}
