@@ -9,6 +9,9 @@ body{
   background: #fff;
   height: 900px;
 }
+.header {
+  height: 260px;
+}
 hr{
   color: #000;
   margin: 0 -22px;
@@ -28,6 +31,16 @@ hr{
 .login-search form input {
   vertical-align: top;
   padding: 3px 0;
+}
+.login-search form button[type="submit"]{
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.login-search form button img{
+  max-width: 100%;
 }
 .login-search a {
   margin-bottom: 15px;
